@@ -4,7 +4,7 @@ body{
     text-align: center;
 }
 
-nav a{
+.header a{
     display: block;
     font-family: Helvetica, sans-serif;
     font-size: 18px;
@@ -12,15 +12,17 @@ nav a{
 }
 
 h1{
-    position: absolute;
-    top: 5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    
     font-family: Helvetica, sans-serif;
     font-size: 70px;
     font-weight: bold;
     color: white;
+}
 
+.header{
+    color: white;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+    display: block;
 }
 
 nav{
@@ -28,4 +30,42 @@ nav{
     top: 25%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+h2{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: Helvetica;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+p{
+    font-family: Helvetica;
+    font-size: 14px;
+}
+
+.reverse{
+    color: white;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
+    display: block;
+}
+
+img.skinnyBkg{
+    max-height: 20px;
+}
+
+.footer{
+    background-color: gray;
+    color: white;
+    text-align: left;
+}
+
+.btmNav{
+    color: white;
+    font-size: 18px;
 }
